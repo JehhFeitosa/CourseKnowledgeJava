@@ -1,7 +1,7 @@
-# CourseKnowledgeJava com Nélio Alves
+﻿# CourseKnowledgeJava com Nélio Alves
 Curso de Java Completo
 
-#Conteúdo do Curso:
+##Conteúdo do Curso:
 
 Lógica de Programação, 
 Java Básico,
