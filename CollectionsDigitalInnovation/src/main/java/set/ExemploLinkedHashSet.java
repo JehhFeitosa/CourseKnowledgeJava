@@ -1,10 +1,10 @@
-package br.com.collections.set;
+package set;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 /*
-Manter a ordem de inser√ß√£o dos elementos
+Manter a ordem de inserÁ„o dos elementos
  */
 public class ExemploLinkedHashSet {
 
@@ -20,7 +20,7 @@ public class ExemploLinkedHashSet {
 
         System.out.println(sequenciaNumerica);
 
-        //Remova o n√∫mero do set
+        //Remova o n˙mero do set
         sequenciaNumerica.remove(4);
 
         System.out.println(sequenciaNumerica);
@@ -39,7 +39,7 @@ public class ExemploLinkedHashSet {
             System.out.println(numero);
         }
 
-        //Retorna se o set est√° vazio ou n√£o
+        //Retorna se o set est· vazio ou n„o
         System.out.println(sequenciaNumerica.isEmpty());
 
     }

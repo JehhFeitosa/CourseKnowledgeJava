@@ -1,4 +1,4 @@
-package br.com.collections.map;
+package map;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,13 +9,13 @@ public class ExemploHashMap {
 
         Map<String, Integer> campeoesMundialFifa = new HashMap<>();
 
-        //Adiciona os campe√µes mundiais fica no mapa
+        //Adiciona os campeıes mundiais fica no mapa
         campeoesMundialFifa.put("Brasil", 5);
         campeoesMundialFifa.put("Alemanha", 4);
         campeoesMundialFifa.put("Italia", 4);
         campeoesMundialFifa.put("Uruguai", 2);
         campeoesMundialFifa.put("Argentina", 2);
-        campeoesMundialFifa.put("Fran√ßa", 2);
+        campeoesMundialFifa.put("FranÁa", 2);
         campeoesMundialFifa.put("Inglaterra", 1);
         campeoesMundialFifa.put("Espanha", 1);
 
@@ -29,22 +29,22 @@ public class ExemploHashMap {
         // Retorna a Argentina
         System.out.println(campeoesMundialFifa.get("Argentina"));
 
-        //Retorna se existe ou n√£o um campe√£o Fran√ßa
-        System.out.println(campeoesMundialFifa.containsKey("Fran√ßa"));
+        //Retorna se existe ou n„o um campe„o FranÁa
+        System.out.println(campeoesMundialFifa.containsKey("FranÁa"));
 
-        // Remove o campe√£o Fran√ßa
-        campeoesMundialFifa.remove("Fran√ßa");
+        // Remove o campe„o FranÁa
+        campeoesMundialFifa.remove("FranÁa");
 
-        //Retorna se existe ou n√£o um campe√£o Fran√ßa
-        System.out.println(campeoesMundialFifa.containsKey("Fran√ßa"));
+        //Retorna se existe ou n„o um campe„o FranÁa
+        System.out.println(campeoesMundialFifa.containsKey("FranÁa"));
 
-        //Retorna se existe ou n√£o alguma sele√ß√£p Hexa Campe√£
+        //Retorna se existe ou n„o alguma seleÁ„p Hexa Campe„
         System.out.println(campeoesMundialFifa.containsValue(6));
 
         //Retorna o tamanho do mapa
         System.out.println(campeoesMundialFifa.size());
 
-        //Retorna se existe ou n√£o alguma sele√ß√£p Hexa Campe√£
+        //Retorna se existe ou n„o alguma seleÁ„p Hexa Campe„
         System.out.println(campeoesMundialFifa);
 
         //Navega nos registros do mapa

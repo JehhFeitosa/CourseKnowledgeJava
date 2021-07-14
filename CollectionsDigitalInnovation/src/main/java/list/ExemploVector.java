@@ -1,11 +1,10 @@
-package br.com.collections.list;
-
+package list;
 
 import java.util.List;
 import java.util.Vector;
 
 /*
-Conhecendo o Vector e seus mÃ©todos
+Conhecendo o Vector e seus métodos
  */
 public class ExemploVector {
 
@@ -16,15 +15,15 @@ public class ExemploVector {
         //Adicioan 4 esportes no vetor
         esportes.add("Futebol");
         esportes.add("Basquetebol");
-        esportes.add("TÃªnis de Mesa");
+        esportes.add("Tênis de Mesa");
         esportes.add("Handebol");
 
         System.out.println(esportes);
 
-        //Altera o valor da posiÃ§Ã£o 2 do vetor
+        //Altera o valor da posição 2 do vetor
         esportes.set(2, "Ping Pong");
 
-        //Remove o esporte da posiÃ§Ã£o 2
+        //Remove o esporte da posição 2
         esportes.remove(2);
 
         //Remove o esporte Hnadebol do vetor
