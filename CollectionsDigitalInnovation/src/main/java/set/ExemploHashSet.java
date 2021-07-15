@@ -1,11 +1,11 @@
-package br.com.collections.set;
+package set;
 
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
 /*
-N√£o Garantem que a list permane√ßa
+N„o Garantem que a list permaneÁa
 na mesma ordem que foi inserida
  */
 public class ExemploHashSet {
@@ -47,7 +47,7 @@ public class ExemploHashSet {
 
         //notasAlunos.clear();
 
-        //Retorne se o set est√° vazio ou n√£o
+        //Retorne se o set est· vazio ou n„o
         System.out.println(notasAlunos.isEmpty());
 
     }

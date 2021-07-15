@@ -1,4 +1,4 @@
-package br.com.collections.set;
+package set;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -18,8 +18,8 @@ public class TesteHashSet {
         notasAlunos.add(55);
 
 
-        notasAlunos.set(44);
-        //ollections.sort(notasAlunos);
+        //notasAlunos.set(44);
+        //collections.sort(notasAlunos);
 
     }
 }
