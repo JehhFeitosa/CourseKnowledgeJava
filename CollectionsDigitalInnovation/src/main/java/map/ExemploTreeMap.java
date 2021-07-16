@@ -41,10 +41,10 @@ public class ExemploTreeMap {
 		System.out.println(treeCapitais.lastEntry().getKey() + "--" + treeCapitais.lastEntry().getValue());
 				
 		//Retorna a primeira capital abaixo na árvore da capital parametrizada
-		System.out.println(treeCapitais.lowerKey("SC").getKey() + "--" + treeCapitais.lowerEntry("SC").getValue());
+		//System.out.println(treeCapitais.lowerKey("SC").getKey() + "--" + treeCapitais.lowerEntry("SC").getValue());
 		
 		//Retorna a primeira capital acima na árvore da capital parametrizada
-		System.out.println(treeCapitais.higherKey("SC").getKey() + "--" + treeCapitais.higherEntry("SC").getValue());
+		//System.out.println(treeCapitais.higherKey("SC").getKey() + "--" + treeCapitais.higherEntry("SC").getValue());
 		
 		//Exibe todas as capitais no console
 		System.out.println(treeCapitais);
