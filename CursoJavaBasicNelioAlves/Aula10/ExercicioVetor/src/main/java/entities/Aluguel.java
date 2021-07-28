@@ -4,26 +4,11 @@ public class Aluguel {
 	
 	private String nomeEstudante;
 	private String email;
-	//private int quarto;
-	
-	
-
-//	public Aluguel(String nomeEstudante, String email, int quarto) {
-//		this.nomeEstudante = nomeEstudante;
-//		this.email = email;
-//		this.quarto = quarto;
-//	}
-//	
-	
-	
 
 	public Aluguel(String nomeEstudante, String email) {
-		super();
 		this.nomeEstudante = nomeEstudante;
 		this.email = email;
 	}
-
-
 
 
 	public String getNomeEstudante() {
@@ -42,13 +27,13 @@ public class Aluguel {
 		this.email = email;
 	}
 
-//	public int getQuarto() {
-//		return quarto;
-//	}
-//
-//	public void setQuartos(int quarto) {
-//		this.quarto = quarto;
-//	}
+
+	@Override
+	public String toString() {
+		return nomeEstudante + "," + email;
+	}
+
+	
 	
 	
 	

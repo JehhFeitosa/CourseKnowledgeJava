@@ -10,33 +10,36 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int quartos = 9;
+		Aluguel[] vect = new Aluguel[10];
 		
 		System.out.println("Bem vindos a pensão da Tia Cool");
-		System.out.println("No momento, temos "+ quartos+ " quartos disponieis.");
 		System.out.println("Digite o número de estudantes que irão alugar quartos...");
 		
 		int n = sc.nextInt();
-		Aluguel[] vect = new Aluguel[quartos];
 		
 		System.out.println("Agora, digite o nome e email de cada estudante.");
 		
-		for(int i=0; i<n; i++) {
+		for (int i=1; i<=n; i++) {
+			System.out.println();
+			System.out.println("Rent #" + i + ":");
+			System.out.print("Name: ");
 			sc.nextLine();
 			String name = sc.nextLine();
+			System.out.print("Email: ");
 			String email = sc.nextLine();
-			vect[i] = new Aluguel(name, email);
-		}
-		
-		
-//		for (int i=0; i<quartos; i++) {
-//			for (int j=0; i<Aluguel.size(); i++) {
-//			System.out.println(Aluguel(j));
-//			}
-//		}
+			System.out.print("Room: ");
+			int room = sc.nextInt();
+			vect[room] = new Aluguel(name, email);
+			}
+			System.out.println();
+			System.out.println("Busy rooms:");
+			for (int i=0; i<10; i++) {
+			if (vect[i] != null) {
+			System.out.println(i + ": " + vect[i]);
+			}
+			}
 				
 		
 		sc.close();
