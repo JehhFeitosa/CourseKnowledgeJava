@@ -9,7 +9,7 @@ public class Aluguel {
 		this.nomeEstudante = nomeEstudante;
 		this.email = email;
 	}
-
+	
 
 	public String getNomeEstudante() {
 		return nomeEstudante;
