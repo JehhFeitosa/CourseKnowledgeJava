@@ -49,7 +49,7 @@ public class Program {
 		System.out.println();
 		System.out.println("Enter month and year to calculate income(MM/YYYY): ");
 		String monthAndYear = sc.next();
-		int month = Integer.parseInt(monthAndYear.substring(0,2));
+		int month = Integer.parseUnsignedInt(monthAndYear.substring(0,2));
 		int year = Integer.parseInt(monthAndYear.substring(3));
 		System.out.println("Name: " + worker.getName());
 		System.out.println("Department: "+ worker.getDepartment().getName());
