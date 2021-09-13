@@ -26,7 +26,7 @@ public class Program {
 			acc5.loan(200.0);
 			System.out.println("Loan!");
 		}
-		
+
 		if (acc3 instanceof SavingAccount) {
 			SavingAccount acc5 = (SavingAccount) acc3;
 			acc5.updateBalance();

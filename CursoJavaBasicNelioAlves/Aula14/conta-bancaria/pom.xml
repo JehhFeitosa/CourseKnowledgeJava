@@ -2,6 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jessicafeitosa</groupId>
   <artifactId>conta-bancaria</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>conta-bancaria</name>
 </project>
