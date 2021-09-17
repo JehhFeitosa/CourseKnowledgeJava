@@ -7,7 +7,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>unit-basis-test</name>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -16,6 +15,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 
 </project>
