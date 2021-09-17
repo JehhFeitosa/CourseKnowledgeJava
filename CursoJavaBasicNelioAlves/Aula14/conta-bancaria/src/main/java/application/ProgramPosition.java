@@ -4,7 +4,7 @@ import entities.Account;
 import entities.BusinessAccount;
 import entities.SavingAccount;
 
-public class UsandoSobreposicao {
+public class ProgramPosition {
 
 	public static void main(String[] args) {
 
