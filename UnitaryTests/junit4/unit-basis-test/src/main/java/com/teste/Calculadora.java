@@ -2,7 +2,7 @@ package com.teste;
 
 public class Calculadora {
 	
-	public int sonar(String expressao) {
+	public int somar(String expressao) {
 		int soma = 0;
 		for(String valorSomar : expressao.split("\\+"))
 			soma += Integer.valueOf(valorSomar);
