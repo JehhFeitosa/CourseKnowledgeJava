@@ -9,7 +9,7 @@ public class CalculadoraTest {
 	@Test
 	public void test() {
 		Calculadora calc = new Calculadora();
-		int soma = calc.sonar("1+1+3");
+		int soma = calc.somar("1+1+3");
 		assertEquals(5, soma);
 	}
 

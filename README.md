@@ -1,18 +1,10 @@
-# CourseKnowledgeJava com Nélio Alves
-Curso de Java Completo
+# DEDICATED DIRECTORY FOR JAVA COURSES CONTENT
 
-##Conteúdo do Curso:
+## Collections DigitalInovation
+- Java collections course.
 
-Lógica de Programação, 
-Java Básico,
-Programação Orientada a Objetos,
-Estrutura de Dados,
-UML,
-JDBC,
-JavaFX,
-Spring Boot,
-JPA,
-Hibernate,
-MySQL e
-MongoDB.
+## Curso Java Basic Nelio Alves
+- Complete Java course, with relational and non-relational BD, Spring Boot, etc...
 
+## Unitary Test
+- Testing Course with Junit 4 and 5.
