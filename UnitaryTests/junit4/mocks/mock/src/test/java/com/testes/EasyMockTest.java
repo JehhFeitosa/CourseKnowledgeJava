@@ -2,6 +2,10 @@ package com.testes;
 
 import java.util.List;
 
+import org.junit.Test;
+
+import static org.easymock.EasyMock.*;
+
 public class EasyMockTest {
 	
 public void test() {
@@ -16,8 +20,7 @@ public void test() {
 		
 		//nomeCodeThatInteracteWithMock();
 		
-		verify(mock).clear();
-		
+		verify(mock);
 
 	}
 

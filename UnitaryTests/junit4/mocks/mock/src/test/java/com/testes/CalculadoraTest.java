@@ -1,10 +1,8 @@
 package com.testes;
 
-
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-
 
 import org.junit.Test;
 
@@ -13,7 +11,7 @@ public class CalculadoraTest {
 	@Test
 	public void test() {
 		
-		Calculadora calculadora= new Calculadora();
+		Calculadora calculadora = new Calculadora();
 		int sum = calculadora.somar("1+2+3");
 		assertEquals(6, sum);
 	}
