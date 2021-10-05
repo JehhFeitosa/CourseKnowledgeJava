@@ -6,6 +6,8 @@ import static org.mockito.Mockito.when;
 
 import org.junit.Test;
 
+import com.teste.Calculadora;
+
 public class CalculadoraTest {
 
 	@Test
