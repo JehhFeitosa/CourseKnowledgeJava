@@ -22,7 +22,7 @@ public class BlocoFinally {
 			if (sc != null) {
 				sc.close();
 			}
-			System.out.println("Finaly block execute");
+			System.out.println("Finaly block execute ");
 		}
 	}
 }
