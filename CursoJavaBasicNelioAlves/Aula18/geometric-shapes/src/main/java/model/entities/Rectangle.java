@@ -12,7 +12,6 @@ public class Rectangle extends AbstractShape {
 		this.width = width;
 		this.height = height;
 	}
-
 	
 	public Double getWidth() {
 		return width;
