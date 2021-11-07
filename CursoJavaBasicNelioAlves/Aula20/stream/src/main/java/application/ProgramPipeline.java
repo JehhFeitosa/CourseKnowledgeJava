@@ -14,7 +14,7 @@ public class ProgramPipeline {
 		System.out.println(Arrays.toString(st1.toArray()));
 		
 		int sum = list.stream().reduce(0, (x, y) -> x + y);
-		System.out.println("Sum = "+ sum);
+		System.out.println("Sum = " + sum);
 		
 		List<Integer> newList = list.stream()
 				.filter(x -> x % 2 == 0)
